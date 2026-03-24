@@ -5,9 +5,9 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.join(BASE_DIR, '..')
 
 RAW_DIR = os.path.join(PROJECT_DIR, 'Data', 'Raw')
-ZILLOW_RAW_DIR = os.path.join(RAW_DIR, 'Zillow')
-CENSUS_RAW_DIR = os.path.join(RAW_DIR, 'Census')
-CLEARINGHOUSE_RAW_DIR = os.path.join(RAW_DIR, 'Clearinghouse')
+RAW_ZILLOW_DIR = os.path.join(RAW_DIR, 'Zillow')
+RAW_CENSUS_DIR = os.path.join(RAW_DIR, 'Census')
+RAW_CLEARINGHOUSE_DIR = os.path.join(RAW_DIR, 'Clearinghouse')
 
 CLEANED_DIR = os.path.join(PROJECT_DIR, 'Data', 'Cleaned')
 IMAGES_DIR = os.path.join(PROJECT_DIR, 'Images')
@@ -22,7 +22,7 @@ TAMPA_BAY_COUNTIES = {
 }
 
 # County names as they may appear in Zillow data
-ZILLOW_COUNTY_NAMES = [
+COUNTY_NAMES = [
     'Hillsborough County',
     'Pinellas County',
     'Pasco County',
