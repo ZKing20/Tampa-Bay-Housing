@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "python.linting.enabled": true,
+    "files.autoSave": "afterDelay",
+    "jupytext.enabled": true,
+    "python.analysis.extraPaths": [
+        "./Scripts"
+    ]
+}

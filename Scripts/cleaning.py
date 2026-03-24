@@ -1,0 +1,100 @@
+# ---
+# jupyter:
+#   jupytext:
+#     formats: py:percent,ipynb
+#     text_representation:
+#       extension: .py
+#       format_name: percent
+#       format_version: '1.3'
+#   kernelspec:
+#     display_name: .venv
+#     language: python
+#     name: python3
+# ---
+
+# %%
+"""
+cleaning.py
+-----------
+Reads raw data from Data/Raw/, cleans and reshapes it,
+and writes analysis-ready CSVs to Data/Cleaned/.
+
+Run this script once before running any analysis or queries.
+Re-run if raw data files are updated.
+
+Data Sources:
+    1. Zillow ZHVI & ZORI  (wide-format CSVs → long-format)
+    2. Census ACS tables   (multi-file per year → merged single tables)
+    3. FL Housing Data Clearinghouse (Excel workbooks → flat CSVs)
+"""
+
+import pandas as pd
+import numpy as np
+import openpyxl
+import os
+from config import (
+    RAW_ZILLOW_DIR, RAW_CENSUS_DIR, RAW_CLEARINGHOUSE_DIR,
+    CLEANED_DIR, COUNTY_NAMES, TAMPA_BAY_FIPS,
+    STUDY_START_YEAR, STUDY_END_YEAR
+)
+
+# %%
+# ============================================================
+# ZILLOW DATA CLEANING
+# ============================================================
+# TODO: Load ZHVI and ZORI CSVs
+# TODO: Filter to Tampa Bay counties + national/metro rows
+# TODO: Unpivot from wide format (one column per month) to long format
+#       Target schema: county, date, value
+# TODO: Save to Data/Cleaned/zillow_home_values.csv
+# TODO: Save to Data/Cleaned/zillow_rents.csv
+
+
+# %%
+# ============================================================
+# CENSUS ACS DATA CLEANING
+# ============================================================
+# TODO: Load B19013 files for each year (2014-2023)
+# TODO: Merge into single DataFrame with columns: county, year, median_income
+# TODO: Save to Data/Cleaned/census_income.csv
+
+# TODO: Load B25064 files (median gross rent) → census_rent.csv
+# TODO: Load B25077 files (median home value) → census_home_value.csv
+# TODO: Load B25070 files (rent as % of income) → census_rent_burden.csv
+
+
+# %%
+# ============================================================
+# CLEARINGHOUSE DATA CLEANING
+# ============================================================
+# TODO: Load Excel workbooks for each county
+# TODO: Read the 8 relevant sheets from each
+# TODO: Combine into unified DataFrames
+# TODO: Save to Data/Cleaned/clearinghouse.csv
+
+
+# %%
+# ============================================================
+# VALIDATION
+# ============================================================
+# After cleaning, print summary stats to confirm data looks correct
+def validate_cleaned_data():
+    """Quick sanity checks on all cleaned files."""
+    for filename in os.listdir(CLEANED_DIR):
+        if filename.endswith('.csv'):
+            filepath = os.path.join(CLEANED_DIR, filename)
+            df = pd.read_csv(filepath)
+            print(f"\n{'='*50}")
+            print(f"{filename}")
+            print(f"{'='*50}")
+            print(f"  Shape: {df.shape}")
+            print(f"  Columns: {list(df.columns)}")
+            print(f"  Nulls:\n{df.isnull().sum().to_string()}")
+            print(f"  First 3 rows:")
+            print(df.head(3).to_string())
+
+
+if __name__ == '__main__':
+    # Run all cleaning steps, then validate
+    # (Uncomment each section as you implement it)
+    validate_cleaned_data()
