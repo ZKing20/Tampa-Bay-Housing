@@ -62,9 +62,9 @@ ZHVI_County_Filtered = ZHVI_County_Raw[(ZHVI_County_Raw['StateName'] == 'FL') &
 ZHVI_Metro_Filtered = ZHVI_Metro_Raw[(ZHVI_Metro_Raw['RegionName'].isin(['Tampa, FL', 'United States']))]
 
 # Unpivot from wide format (one column per month) to long format
-ZORI_County_Long = pd.melt(ZORI_County_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName', 'State', 'Metro', 'StateCodeFIPS', 'MunicipalCodeFIPS'], var_name = 'date', value_name = 'value')
+ZORI_County_Long = pd.melt(ZORI_County_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName', 'Metro', 'StateCodeFIPS', 'MunicipalCodeFIPS'], var_name = 'date', value_name = 'value')
 ZORI_Metro_Long = pd.melt(ZORI_Metro_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName'], var_name = 'date', value_name = 'value')
-ZHVI_County_Long = pd.melt(ZHVI_County_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName', 'State', 'Metro', 'StateCodeFIPS', 'MunicipalCodeFIPS'], var_name = 'date', value_name = 'value')
+ZHVI_County_Long = pd.melt(ZHVI_County_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName', 'Metro', 'StateCodeFIPS', 'MunicipalCodeFIPS'], var_name = 'date', value_name = 'value')
 ZHVI_Metro_Long = pd.melt(ZHVI_Metro_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName'], var_name = 'date', value_name = 'value')
 
 # TODO: Save to Data/Cleaned/zillow_home_values.csv
