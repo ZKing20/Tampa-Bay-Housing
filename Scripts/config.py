@@ -13,14 +13,6 @@ CLEANED_DIR = os.path.join(PROJECT_DIR, 'Data', 'Cleaned')
 IMAGES_DIR = os.path.join(PROJECT_DIR, 'Images')
 
 # --- Tampa Bay County Identifiers ---
-# FIPS codes used by Census data to identify counties
-TAMPA_BAY_COUNTIES = {
-    'Hillsborough': '12057',
-    'Pinellas': '12103',
-    'Pasco': '12101',
-    'Polk': '12105',
-}
-
 # County names as they may appear in Zillow data
 COUNTY_NAMES = [
     'Hillsborough County',
@@ -29,13 +21,21 @@ COUNTY_NAMES = [
     'Polk County',
 ]
 
+# FIPS codes used by Census data to identify counties
+COUNTY_FIPS = {
+    'Hillsborough': '12057',
+    'Pinellas': '12103',
+    'Pasco': '12101',
+    'Polk': '12105',
+}
+
 # State filter
 STATE_FIPS = '12'  # Florida
 STATE_NAME = 'Florida'
 
 # --- Analysis Parameters ---
 ANALYSIS_START_YEAR = 2014
-ANALYSIS_END_YEAR = 2023
+ANALYSIS_END_YEAR = 2024
 
 # Cost burden threshold (HUD standard)
 COST_BURDEN_THRESHOLD = 30  # percent of income spent on housing
