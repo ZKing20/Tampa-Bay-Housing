@@ -7,7 +7,6 @@ from config import CLEANED_DIR
 # Global Connection Holder
 _CON = None
 
-
 def get_connection():
     """
     Returns a DuckDB connection with all cleaned datasets
@@ -28,12 +27,9 @@ def get_connection():
     global _CON
 
     if _CON is None:
+        # Initialiize DuckDB connection
         _CON = duckdb.connect()
 
-        # --- Register each cleaned CSV as a table ---
-        # Add registrations here as you complete each cleaning step.
-        # Example:
-        # _CON.register('zillow_home_values',
-        #     pd.read_csv(os.path.join(CLEANED_DIR, 'zillow_home_values.csv')))
+        # TODO Register all tables
 
     return _CON

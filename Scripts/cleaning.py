@@ -42,10 +42,27 @@ from config import (
 # ============================================================
 # ZILLOW DATA CLEANING
 # ============================================================
-# TODO: Load ZHVI and ZORI CSVs
-# TODO: Filter to Tampa Bay counties + national/metro rows
-# TODO: Unpivot from wide format (one column per month) to long format
-#       Target schema: county, date, value
+
+# Load ZHVI and ZORI CSVs
+ZORI_County_Raw = pd.read_csv(os.path.join(RAW_ZILLOW_DIR, 'ZORI_County_Level_Raw.csv'))
+ZORI_Metro_Raw = pd.read_csv(os.path.join(RAW_ZILLOW_DIR, 'ZORI_Metro_Level_Raw.csv'))
+ZHVI_County_Raw = pd.read_csv(os.path.join(RAW_ZILLOW_DIR, 'ZHVI_County_Level_Raw.csv'))
+ZHVI_Metro_Raw = pd.read_csv(os.path.join(RAW_ZILLOW_DIR, 'ZHVI_Metro_Level_Raw.csv'))
+
+# Filter to Tampa Bay counties + national/metro rows
+ZORI_County_Filtered = ZORI_County_Raw[(ZORI_County_Raw['StateName'] == 'FL') & 
+                          (ZORI_County_Raw['RegionName'].isin(COUNTY_NAMES))]
+ZORI_Metro_Filtered = ZORI_Metro_Raw[(ZORI_Metro_Raw['RegionName'].isin(['Tampa, FL', 'United States']))]
+ZHVI_County_Filtered = ZHVI_County_Raw[(ZHVI_County_Raw['StateName'] == 'FL') & 
+                          (ZHVI_County_Raw['RegionName'].isin(COUNTY_NAMES))]
+ZHVI_Metro_Filtered = ZHVI_Metro_Raw[(ZHVI_Metro_Raw['RegionName'].isin(['Tampa, FL', 'United States']))]
+
+# Unpivot from wide format (one column per month) to long format
+ZORI_County_Long = pd.melt(ZORI_County_Raw, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName', 'State', 'Metro', 'StateCodeFIPS', 'MunicipalCodeFIPS'], var_name = 'date', value_name = 'value')
+ZORI_Metro_Long = pd.melt(ZORI_Metro_Raw, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName'], var_name = 'date', value_name = 'value')
+ZHVI_County_Long = pd.melt(ZHVI_County_Raw, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName', 'State', 'Metro', 'StateCodeFIPS', 'MunicipalCodeFIPS'], var_name = 'date', value_name = 'value')
+ZHVI_Metro_Long = pd.melt(ZHVI_Metro_Raw, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName'], var_name = 'date', value_name = 'value')
+
 # TODO: Save to Data/Cleaned/zillow_home_values.csv
 # TODO: Save to Data/Cleaned/zillow_rents.csv
 
