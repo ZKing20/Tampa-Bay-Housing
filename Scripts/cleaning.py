@@ -62,10 +62,32 @@ ZHVI_County_Filtered = ZHVI_County_Raw[(ZHVI_County_Raw['StateName'] == 'FL') &
 ZHVI_Metro_Filtered = ZHVI_Metro_Raw[(ZHVI_Metro_Raw['RegionName'].isin(['Tampa, FL', 'United States']))]
 
 # Unpivot from wide format (one column per month) to long format
-ZORI_County_Long = pd.melt(ZORI_County_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName', 'Metro', 'StateCodeFIPS', 'MunicipalCodeFIPS'], var_name = 'date', value_name = 'value')
-ZORI_Metro_Long = pd.melt(ZORI_Metro_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName'], var_name = 'date', value_name = 'value')
-ZHVI_County_Long = pd.melt(ZHVI_County_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName', 'Metro', 'StateCodeFIPS', 'MunicipalCodeFIPS'], var_name = 'date', value_name = 'value')
-ZHVI_Metro_Long = pd.melt(ZHVI_Metro_Filtered, id_vars = ['RegionID', 'SizeRank', 'RegionName', 'RegionType', 'StateName'], var_name = 'date', value_name = 'value')
+ZORI_County_Long = pd.melt(
+    ZORI_County_Filtered,
+    id_vars = ['RegionID', 'SizeRank', 'RegionName',
+               'RegionType', 'StateName', 'Metro',
+               'StateCodeFIPS', 'MunicipalCodeFIPS'],
+               var_name = 'date',
+               value_name = 'value')
+ZORI_Metro_Long = pd.melt(
+    ZORI_Metro_Filtered,
+    id_vars = ['RegionID', 'SizeRank', 'RegionName',
+               'RegionType', 'StateName'],
+               var_name = 'date',
+               value_name = 'value')
+ZHVI_County_Long = pd.melt(
+    ZHVI_County_Filtered,
+    id_vars = ['RegionID', 'SizeRank', 'RegionName',
+               'RegionType', 'StateName', 'Metro',
+               'StateCodeFIPS', 'MunicipalCodeFIPS'],
+               var_name = 'date',
+               value_name = 'value')
+ZHVI_Metro_Long = pd.melt(
+    ZHVI_Metro_Filtered,
+    id_vars = ['RegionID', 'SizeRank', 'RegionName',
+               'RegionType', 'StateName'],
+               var_name = 'date',
+               value_name = 'value')
 
 # TODO: Save to Data/Cleaned/zillow_home_values.csv
 
@@ -78,25 +100,55 @@ ZHVI_Metro_Long = pd.melt(ZHVI_Metro_Filtered, id_vars = ['RegionID', 'SizeRank'
 # CENSUS ACS DATA CLEANING
 # ============================================================
 
-# Load B19013 files for each year (2014-2024)
-raw_income_files = sorted(glob.glob(os.path.join(RAW_CENSUS_DIR, 'B19013_Median_Household_Income_Past_12_Months', '*.csv')))
+# Helper function for 3 of the 4 tables from the Census 
+def clean_census_table(filename):
+    # Load files for each year
+    raw_files = sorted(glob.glob(os.path.join(RAW_CENSUS_DIR, filename, '*.csv')))
 
-# TODO: Clean and filter the raw data
-clean_income_files = pd.concat(pd.melt(f, id_vars = [], var_name = '', value_name = 'median_income') for f in raw_income_files)
+    # Add a 'Year' Column
+    yearly_files = []
+    for f in raw_files:
+        df = pd.read_csv(f)
+        year = os.path.basename(f).split('_')[0]
+        df['Year'] = year
+        yearly_files.append(df)
 
-# Combine CSVs into one
-Median_Household_Income = pd.concat((pd.read_csv(f) for f in clean_income_files), ignore_index=True)
+    # Combine all years into one dataframe
+    yearly_combined = pd.concat(
+        yearly_files,
+        ignore_index = True
+    )
 
-# TODO: Save to Data/Cleaned/census_income.csv
+    # Clean and filter the raw data
+    yearly_combined.columns = yearly_combined.columns.str.replace('!!', ' ')
+    estimate_cols = yearly_combined.columns[yearly_combined.columns.str.endswith(" Estimate")]
+    yearly_combined = yearly_combined[estimate_cols.tolist() + ['Year']]
+    yearly_combined.columns = yearly_combined.columns.str.removesuffix(' Estimate')
+    yearly_combined.columns = yearly_combined.columns.str.removesuffix(', Florida')
 
+    # Reformat to long data
+    yearly_combined_long = pd.melt(
+        yearly_combined, 
+        id_vars = 'Year',
+        var_name = 'County',
+        value_name = 'value')
 
-# TODO: Load B25064 files (median gross rent) → census_rent.csv
+    # Convert values from strings to integer
+    yearly_combined_long['value'] = yearly_combined_long['value'].str.replace(',', '')
+    yearly_combined_long['value'] = pd.to_numeric(yearly_combined_long['value'])
 
+    return yearly_combined_long
 
-# TODO: Load B25077 files (median home value) → census_home_value.csv
+# Apply the helper function
+Median_Household_Income_Clean = clean_census_table('B19013_Median_Household_Income_Past_12_Months')
+Median_Gross_Rent_Clean = clean_census_table('B25064_Median_Gross_Rent')
+Median_Home_Value_Clean = clean_census_table('B25077_Median_Value_Owner_Occupied_Housing_Units')
 
 
 # TODO: Load B25070 files (rent as % of income) → census_rent_burden.csv
+
+
+# TODO: Save to Data/Cleaned/census_income.csv
 
 
 # %%
