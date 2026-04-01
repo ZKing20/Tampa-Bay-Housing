@@ -146,7 +146,32 @@ Median_Home_Value_Clean = clean_census_table('B25077_Median_Value_Owner_Occupied
 
 
 # TODO: Load B25070 files (rent as % of income) → census_rent_burden.csv
+# Load files for each year
+raw_files = sorted(glob.glob(os.path.join(RAW_CENSUS_DIR, 'B25070_Gross_Rent_Percentage_of_Household_Income', '*.csv')))
 
+# Add a 'Year' Column
+yearly_files = []
+for f in raw_files:
+    df = pd.read_csv(f)
+    year = os.path.basename(f).split('_')[0]
+    df['Year'] = year
+    yearly_files.append(df)
+
+# Combine all years into one dataframe
+yearly_combined = pd.concat(
+    yearly_files,
+    ignore_index = True
+)
+
+# TODO: Clean and filter the raw data
+yearly_combined.columns = yearly_combined.columns.str.replace('!!', ' ')
+estimate_cols = yearly_combined.columns[yearly_combined.columns.str.endswith((" Estimate", "(Grouping)"))]
+yearly_combined = yearly_combined[estimate_cols.tolist() + ['Year']]
+yearly_combined.columns = yearly_combined.columns.str.removesuffix(' Estimate')
+yearly_combined.columns = yearly_combined.columns.str.removesuffix(', Florida')
+yearly_combined.rename(columns={'Label (Grouping)': 'Bracket'}, inplace=True)
+
+# TODO: Reformat to long data
 
 # TODO: Save to Data/Cleaned/census_income.csv
 
