@@ -33,7 +33,7 @@ Data Sources:
 # ============================================================
 import pandas as pd
 import numpy as np
-import openpyxl
+import openpyxl as op
 import os
 import glob
 from config import (
@@ -56,9 +56,11 @@ ZHVI_Metro_Raw = pd.read_csv(os.path.join(RAW_ZILLOW_DIR, 'ZHVI_Metro_Level_Raw.
 # Filter to Tampa Bay counties + national/metro rows
 ZORI_County_Filtered = ZORI_County_Raw[(ZORI_County_Raw['StateName'] == 'FL') & 
                           (ZORI_County_Raw['RegionName'].isin(COUNTY_NAMES))]
+ZORI_County_Filtered = ZORI_County_Filtered.drop(columns='State')
 ZORI_Metro_Filtered = ZORI_Metro_Raw[(ZORI_Metro_Raw['RegionName'].isin(['Tampa, FL', 'United States']))]
 ZHVI_County_Filtered = ZHVI_County_Raw[(ZHVI_County_Raw['StateName'] == 'FL') & 
                           (ZHVI_County_Raw['RegionName'].isin(COUNTY_NAMES))]
+ZHVI_County_Filtered = ZHVI_County_Filtered.drop(columns='State')
 ZHVI_Metro_Filtered = ZHVI_Metro_Raw[(ZHVI_Metro_Raw['RegionName'].isin(['Tampa, FL', 'United States']))]
 
 # Unpivot from wide format (one column per month) to long format
@@ -145,7 +147,7 @@ Median_Gross_Rent_Clean = clean_census_table('B25064_Median_Gross_Rent')
 Median_Home_Value_Clean = clean_census_table('B25077_Median_Value_Owner_Occupied_Housing_Units')
 
 
-# TODO: Load B25070 files (rent as % of income) → census_rent_burden.csv
+# Load B25070 files (rent as % of income) → census_rent_burden.csv
 # Load files for each year
 raw_files = sorted(glob.glob(os.path.join(RAW_CENSUS_DIR, 'B25070_Gross_Rent_Percentage_of_Household_Income', '*.csv')))
 
@@ -163,15 +165,33 @@ yearly_combined = pd.concat(
     ignore_index = True
 )
 
-# TODO: Clean and filter the raw data
+# Clean and filter the raw data
 yearly_combined.columns = yearly_combined.columns.str.replace('!!', ' ')
 estimate_cols = yearly_combined.columns[yearly_combined.columns.str.endswith((" Estimate", "(Grouping)"))]
 yearly_combined = yearly_combined[estimate_cols.tolist() + ['Year']]
 yearly_combined.columns = yearly_combined.columns.str.removesuffix(' Estimate')
 yearly_combined.columns = yearly_combined.columns.str.removesuffix(', Florida')
 yearly_combined.rename(columns={'Label (Grouping)': 'Bracket'}, inplace=True)
+burden_category = {"Total": None, "Less than 10.0 percent": "not_burdened",
+                   "10.0 to 14.9 percent": "not_burdened", "15.0 to 19.9 percent": "not_burdened",
+                   "20.0 to 24.9 percent": "not_burdened", "25.0 to 29.9 percent": "not_burdened", 
+                   "30.0 to 34.9 percent": "burdened", "35.0 to 39.9 percent": "burdened",
+                   "40.0 to 49.9 percent": "burdened", "50.0 percent or more": "burdened",
+                   "Not computed": "not_computed"}
+yearly_combined['Bracket'] =  yearly_combined['Bracket'].str.strip().str.rstrip(':')
+yearly_combined['burden_category'] = yearly_combined['Bracket'].map(burden_category)
 
-# TODO: Reformat to long data
+# Reformat to long data
+yearly_combined_long = pd.melt(
+    yearly_combined,
+    id_vars = ('Bracket', 'Year', 'burden_category'),
+    var_name = 'County',
+    value_name = 'value',
+)
+
+# Convert values from strings to integer
+yearly_combined_long['value'] = yearly_combined_long['value'].str.replace(',', '')
+yearly_combined_long['value'] = pd.to_numeric(yearly_combined_long['value'])
 
 # TODO: Save to Data/Cleaned/census_income.csv
 
@@ -181,8 +201,17 @@ yearly_combined.rename(columns={'Label (Grouping)': 'Bracket'}, inplace=True)
 # CLEARINGHOUSE DATA CLEANING
 # ============================================================
 # TODO: Load Excel workbooks for each county
-# TODO: Read the 8 relevant sheets from each
-# TODO: Combine into unified DataFrames
+def clean_clearinghouse_table(filename):
+    raw_files = sorted(glob.glob(os.path.join(RAW_CLEARINGHOUSE_DIR, '*.xlsx')))
+    homeownership_files = []
+    for f in raw_files:
+        df = pd.read_excel(f, sheet_name='Sheet 4', header=2)
+        homeownership_files.append(df)
+
+    # Combine into unified DataFrames
+    homeownership_combined = pd.concat(homeownership_files, ignore_index=True)
+    print(homeownership_combined)
+
 # TODO: Save to Data/Cleaned/clearinghouse.csv
 
 
