@@ -1,0 +1,721 @@
+RegionID,SizeRank,RegionName,RegionType,StateName,Metro,StateCodeFIPS,MunicipalCodeFIPS,date,value
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-01-31,155476.0618221706
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-01-31,150079.4025511341
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-01-31,119811.34400935652
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-01-31,134855.7510046184
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-02-28,156885.177569835
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-02-28,150914.36151998714
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-02-28,121014.09586407244
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-02-28,136274.9067463705
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-03-31,158056.08984153616
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-03-31,151616.38434905733
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-03-31,122148.40243769414
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-03-31,137494.0905026216
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-04-30,159043.5984466927
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-04-30,152569.6394005406
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-04-30,123107.092003879
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-04-30,138532.35310195878
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-05-31,159900.79708995728
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-05-31,153812.66617471862
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-05-31,124025.87217020892
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-05-31,139398.4174045983
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-06-30,160585.1101909956
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-06-30,154847.2112615135
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-06-30,124870.04228127107
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-06-30,140124.5367288028
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-07-31,161626.59488948854
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-07-31,155838.42325113926
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-07-31,125888.02781727228
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-07-31,140821.5128782801
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-08-31,162472.88370751278
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-08-31,156640.19565965413
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-08-31,126824.17809299516
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-08-31,141399.74617633704
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-09-30,163509.7630144083
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-09-30,157388.92886220888
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-09-30,127534.80402791523
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-09-30,142070.43570732675
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-10-31,164205.78318029898
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-10-31,158457.45966851313
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-10-31,128198.73188216337
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-10-31,142590.08307199494
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-11-30,165135.65489739765
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-11-30,159768.29929930877
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-11-30,129155.30680734676
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-11-30,143223.2155762038
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2014-12-31,166159.27811479216
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2014-12-31,161548.22064769408
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2014-12-31,130376.46636319972
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2014-12-31,143922.1837344292
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-01-31,167396.0006375245
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-01-31,162734.42623025566
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-01-31,131360.57735319412
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-01-31,144640.9418024157
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-02-28,168588.23758477726
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-02-28,163589.7315413753
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-02-28,131966.66346443116
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-02-28,145370.90278734735
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-03-31,169637.79043035067
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-03-31,164179.24853805764
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-03-31,132467.3309128838
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-03-31,146211.06487030498
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-04-30,170529.8045589784
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-04-30,165338.906973133
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-04-30,133138.29574285707
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-04-30,147323.7785755384
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-05-31,171355.77671784093
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-05-31,166821.86868263112
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-05-31,133979.77082980325
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-05-31,148458.92774642768
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-06-30,172158.67993971027
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-06-30,168379.3825829573
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-06-30,134963.45073161137
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-06-30,149557.46642771733
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-07-31,173272.55037935977
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-07-31,170113.23200980635
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-07-31,136101.72922957936
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-07-31,150707.33349809004
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-08-31,174560.9129587163
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-08-31,172005.68110279986
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-08-31,137295.5567725097
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-08-31,151828.84901582464
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-09-30,176119.8814525363
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-09-30,174050.04747444854
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-09-30,138289.27272678158
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-09-30,153021.06511413484
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-10-31,177681.98530820248
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-10-31,176239.36939669054
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-10-31,139294.7917331016
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-10-31,154280.46934133838
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-11-30,179348.42433172464
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-11-30,178440.76327678675
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-11-30,140324.53734037667
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-11-30,155588.32982420106
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2015-12-31,181132.11533764508
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2015-12-31,180672.4692548444
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2015-12-31,141555.33572631262
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2015-12-31,156868.95099843782
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-01-31,182973.87471776432
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-01-31,182357.28487483587
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-01-31,142642.04318135424
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-01-31,157975.86667454834
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-02-29,184827.03504627827
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-02-29,183915.02412303796
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-02-29,143653.4636102449
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-02-29,159130.02883908452
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-03-31,186231.46040249796
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-03-31,185264.5846422797
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-03-31,144468.26648677478
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-03-31,160146.3273650293
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-04-30,187502.21776270133
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-04-30,187044.55573471147
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-04-30,145446.97707288724
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-04-30,161526.47228366797
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-05-31,188539.1304935568
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-05-31,188575.39065675676
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-05-31,146286.36532594464
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-05-31,162838.29272349516
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-06-30,189682.0455133072
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-06-30,190004.4754492805
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-06-30,147282.52248451687
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-06-30,164324.01017050838
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-07-31,190831.22727714316
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-07-31,191160.00224737395
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-07-31,148220.08905100383
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-07-31,165550.325959068
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-08-31,192120.29213409187
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-08-31,192484.9302145629
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-08-31,149546.58807855507
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-08-31,166838.79102963491
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-09-30,193687.13410718265
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-09-30,194236.54026212243
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-09-30,150922.13069337318
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-09-30,168379.6123545269
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-10-31,195335.8606907164
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-10-31,196254.3958858742
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-10-31,152436.28487671432
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-10-31,170080.93680237263
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-11-30,197030.79782907743
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-11-30,198346.51315987817
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-11-30,153728.15113528332
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-11-30,171849.46712853
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2016-12-31,198500.384982472
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2016-12-31,200251.83631171705
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2016-12-31,155084.52082002588
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2016-12-31,173337.89989853397
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-01-31,199955.05873546345
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-01-31,201646.047460554
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-01-31,156150.62786100374
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-01-31,174716.85841123594
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-02-28,201543.88797861332
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-02-28,202679.1409282419
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-02-28,157093.42858329866
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-02-28,176145.24467361465
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-03-31,203362.15594330183
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-03-31,203554.51458102927
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-03-31,158003.6784603815
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-03-31,177422.01955216247
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-04-30,205053.0035404845
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-04-30,204853.47275272585
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-04-30,159098.40870733172
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-04-30,178832.0744749815
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-05-31,206301.56646241748
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-05-31,206243.77803579308
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-05-31,160086.37108550614
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-05-31,180012.54395273724
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-06-30,207476.66951514705
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-06-30,207907.0183853164
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-06-30,161260.44056139965
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-06-30,181487.07182080127
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-07-31,208694.8791846818
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-07-31,209679.65722092948
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-07-31,162465.86965828674
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-07-31,182844.67904392013
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-08-31,210044.4646122789
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-08-31,211777.23246057573
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-08-31,163922.3396680598
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-08-31,184387.78809863213
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-09-30,211323.24171311528
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-09-30,213755.1705246611
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-09-30,165216.79211201088
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-09-30,185894.9014182412
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-10-31,212458.21624005344
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-10-31,215756.14960624327
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-10-31,166561.09568533907
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-10-31,187469.63759577528
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-11-30,213806.27760853004
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-11-30,217811.0714331861
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-11-30,167930.46572896905
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-11-30,189139.757280082
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2017-12-31,215409.1027174363
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2017-12-31,219907.4825819895
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2017-12-31,169322.06882239258
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2017-12-31,190690.9521072468
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-01-31,217187.7891287099
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-01-31,221049.2017364236
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-01-31,170644.19785098577
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-01-31,192168.3215633
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-02-28,218852.3496975873
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-02-28,221541.64476482532
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-02-28,171959.60112108826
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-02-28,193491.9522672285
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-03-31,220499.6774518752
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-03-31,222000.0170682991
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-03-31,173371.77468142688
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-03-31,194897.12301304413
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-04-30,221992.46129189376
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-04-30,223102.41160397505
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-04-30,174663.99492438664
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-04-30,196088.6652110896
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-05-31,223154.6131083575
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-05-31,224560.1120309292
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-05-31,175911.08321563038
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-05-31,197187.781662013
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-06-30,223897.7192654264
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-06-30,225924.51846855928
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-06-30,177058.19956384055
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-06-30,198096.8997824407
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-07-31,224834.74872172668
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-07-31,227643.8594788394
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-07-31,178517.72603147555
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-07-31,199208.07093554168
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-08-31,225857.07321998067
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-08-31,229422.47940188835
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-08-31,179953.78819237338
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-08-31,200156.189809286
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-09-30,226989.23089495
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-09-30,231106.96592838864
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-09-30,181368.48500006404
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-09-30,201138.3775038016
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-10-31,227793.91897396432
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-10-31,232496.89836652676
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-10-31,182629.76960299475
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-10-31,201790.86322145865
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-11-30,228779.79636940072
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-11-30,234007.7451259673
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-11-30,184077.07342717508
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-11-30,202528.0473165995
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2018-12-31,229950.85885639052
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2018-12-31,235551.41725054523
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2018-12-31,185698.6047192689
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2018-12-31,203403.87766897815
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-01-31,231241.97667648012
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-01-31,236761.67438823337
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-01-31,187354.36764429449
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-01-31,204771.3635794964
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-02-28,232298.1115402757
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-02-28,237675.92196827556
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-02-28,188744.7265043351
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-02-28,206423.92221744
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-03-31,232840.2819444942
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-03-31,238508.55024104356
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-03-31,189708.27324485368
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-03-31,207831.11801186853
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-04-30,233229.6559590808
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-04-30,239546.8527796605
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-04-30,190315.66317231665
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-04-30,208849.6208170266
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-05-31,233505.543083724
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-05-31,240477.8546023382
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-05-31,190720.3371858378
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-05-31,209253.78611919668
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-06-30,234099.16592036543
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-06-30,241518.7344871096
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-06-30,191281.80370829903
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-06-30,209790.96767808203
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-07-31,234754.8998146949
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-07-31,242584.37722578205
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-07-31,192019.7454324268
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-07-31,210338.81981369565
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-08-31,235584.15699239212
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-08-31,243787.79353461115
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-08-31,192988.8877118105
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-08-31,211177.04384871863
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-09-30,236230.60685904612
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-09-30,244802.4289521557
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-09-30,193904.90034446333
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-09-30,211879.03182301664
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-10-31,237025.9431374875
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-10-31,245972.5948313797
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-10-31,194935.35731166776
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-10-31,212635.2668421204
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-11-30,238116.83104816024
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-11-30,247507.86830296344
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-11-30,196149.12897110617
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-11-30,213663.3648968866
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2019-12-31,239662.63592467763
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2019-12-31,249317.96738421865
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2019-12-31,197606.8321834476
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2019-12-31,214993.61330256853
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-01-31,241731.52240614453
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-01-31,252239.3118218528
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-01-31,199150.65965512488
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-01-31,216916.8733144251
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-02-29,243742.57341289427
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-02-29,255139.1615394045
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-02-29,200654.1252503262
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-02-29,218489.605616214
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-03-31,245487.0243564878
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-03-31,257945.26336683263
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-03-31,201942.22673082695
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-03-31,219769.33282230524
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-04-30,246541.5725270484
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-04-30,259253.24971199397
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-04-30,202928.89272825737
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-04-30,220464.0473715254
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-05-31,247111.9354357433
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-05-31,259467.4068914024
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-05-31,203531.4751254849
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-05-31,220919.7222380395
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-06-30,247628.76806745504
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-06-30,259444.09117061563
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-06-30,204230.81840582573
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-06-30,221530.570561131
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-07-31,248592.5731451792
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-07-31,259988.61210353547
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-07-31,205315.69717023088
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-07-31,222661.98392565257
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-08-31,250402.90597225647
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-08-31,261669.1818556784
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-08-31,207050.2956584989
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-08-31,224704.38397090265
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-09-30,253080.13987790456
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-09-30,264449.68185170525
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-09-30,209439.17437754615
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-09-30,227622.67675122104
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-10-31,256230.39827951463
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-10-31,267613.30464759
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-10-31,212087.22050643663
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-10-31,230902.3801352601
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-11-30,259886.6498347878
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-11-30,271537.3971191962
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-11-30,215047.0008539511
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-11-30,234622.49759837717
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2020-12-31,263725.1783641723
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2020-12-31,275249.88945798675
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2020-12-31,217778.1189593087
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2020-12-31,238347.00742510133
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-01-31,267936.8180926959
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-01-31,279504.7918623134
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-01-31,220769.385234501
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-01-31,242022.4107598036
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-02-28,272518.9166198407
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-02-28,284135.10335696675
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-02-28,223804.4473941352
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-02-28,245742.7730462762
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-03-31,277602.74957810325
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-03-31,289355.97529779986
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-03-31,227204.5425745189
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-03-31,249762.89019342323
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-04-30,282918.60576196143
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-04-30,294693.2034046971
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-04-30,230588.9099818341
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-04-30,254508.18867987787
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-05-31,288833.0228833973
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-05-31,300439.91795468936
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-05-31,234352.03182499544
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-05-31,259961.77096929116
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-06-30,295411.88666195533
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-06-30,307019.21607770905
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-06-30,239004.71608377635
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-06-30,266581.87239496224
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-07-31,302063.21397439094
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-07-31,314039.0143969756
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-07-31,243961.66676938956
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-07-31,273702.1702012076
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-08-31,307866.75281570177
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-08-31,320039.1090473611
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-08-31,248620.0015064733
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-08-31,280568.9136726
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-09-30,312655.8646664881
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-09-30,324871.34812275873
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-09-30,252497.6796636471
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-09-30,286409.037172358
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-10-31,317427.3560598894
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-10-31,328856.498155866
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-10-31,256487.3754472912
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-10-31,291807.1662579183
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-11-30,322914.9673706909
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-11-30,333635.7419860437
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-11-30,261182.30985227757
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-11-30,297567.54601379496
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2021-12-31,329028.46837761416
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2021-12-31,338678.3475582935
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2021-12-31,266326.87880550185
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2021-12-31,303444.08424007386
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-01-31,336801.474963292
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-01-31,345323.5501583918
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-01-31,272616.484252063
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-01-31,309987.84191842325
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-02-28,346035.89291000925
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-02-28,352809.85116119933
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-02-28,280012.75562242075
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-02-28,316892.04780716205
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-03-31,357136.835151275
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-03-31,361762.1359572155
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-03-31,288195.9907459934
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-03-31,324883.1842874174
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-04-30,368911.38620684895
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-04-30,371434.9875453925
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-04-30,296643.3526346078
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-04-30,334040.9361632704
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-05-31,380145.055507236
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-05-31,381088.827111504
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-05-31,304330.57626430976
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-05-31,343507.4025789996
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-06-30,389681.0587218788
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-06-30,390039.0127174691
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-06-30,311455.14285055787
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-06-30,352386.64658773475
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-07-31,396022.459438161
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-07-31,395933.4119241434
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-07-31,316509.0659613952
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-07-31,358355.0793271957
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-08-31,398903.0750813713
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-08-31,398658.5979201127
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-08-31,319388.4519506741
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-08-31,361182.4756893222
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-09-30,398643.3191019087
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-09-30,398254.5443409961
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-09-30,320011.4533616034
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-09-30,361010.9768333671
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-10-31,396869.1726683368
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-10-31,396713.896016543
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-10-31,319480.6166118977
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-10-31,359530.0720155451
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-11-30,394334.7971522699
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-11-30,394311.0257762747
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-11-30,318428.33750053454
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-11-30,357630.6318756525
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2022-12-31,391450.4359056184
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2022-12-31,391507.0506489416
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2022-12-31,316843.865900708
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2022-12-31,355536.27220397536
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-01-31,388128.1142573748
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-01-31,389101.3192915625
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-01-31,314697.0373693641
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-01-31,353151.88087787904
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-02-28,385245.3577906343
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-02-28,387960.4800694597
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-02-28,312862.5444003172
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-02-28,351054.1738302155
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-03-31,383484.15296451095
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-03-31,388519.83733002114
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-03-31,311705.6991260254
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-03-31,349574.4947919753
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-04-30,382989.5924067788
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-04-30,389681.6541118774
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-04-30,311261.03968634846
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-04-30,348954.8989205442
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-05-31,383731.3383169891
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-05-31,391432.1044211185
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-05-31,311098.9695580166
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-05-31,348909.17624137073
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-06-30,385441.5893006921
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-06-30,393904.69051990233
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-06-30,311581.70617523254
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-06-30,349653.14406382386
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-07-31,387338.51376382005
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-07-31,396403.1707772449
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-07-31,312485.6560946472
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-07-31,350747.6110672243
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-08-31,389184.51193577936
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-08-31,398609.1272120829
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-08-31,313485.3600237413
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-08-31,352154.32172865694
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-09-30,390550.08668285486
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-09-30,399508.2498376481
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-09-30,313981.0449415426
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-09-30,353366.2107231507
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-10-31,391799.9704629733
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-10-31,400413.7130758696
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-10-31,314193.10622803564
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-10-31,354457.161270246
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-11-30,392667.4614206666
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-11-30,401124.95025240135
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-11-30,314265.16151663713
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-11-30,355328.1596892918
+3165,27,Hillsborough County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,57.0,2023-12-31,393512.1056895796
+2480,51,Pinellas County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,103.0,2023-12-31,402082.0516389897
+285,93,Polk County,county,FL,"Lakeland-Winter Haven, FL",12.0,105.0,2023-12-31,314407.6869575425
+669,123,Pasco County,county,FL,"Tampa-St. Petersburg-Clearwater, FL",12.0,101.0,2023-12-31,356074.7486613479
+102001,0,United States,country,,,,,2014-01-31,176187.27308643097
+395148,18,"Tampa, FL",msa,FL,,,,2014-01-31,144342.5178521518
+102001,0,United States,country,,,,,2014-02-28,177042.41164369462
+395148,18,"Tampa, FL",msa,FL,,,,2014-02-28,145638.3633262042
+102001,0,United States,country,,,,,2014-03-31,177905.54883221255
+395148,18,"Tampa, FL",msa,FL,,,,2014-03-31,146773.20174960542
+102001,0,United States,country,,,,,2014-04-30,178771.9647713354
+395148,18,"Tampa, FL",msa,FL,,,,2014-04-30,147815.92569068147
+102001,0,United States,country,,,,,2014-05-31,179761.5167009999
+395148,18,"Tampa, FL",msa,FL,,,,2014-05-31,148837.1098396299
+102001,0,United States,country,,,,,2014-06-30,180638.76114835212
+395148,18,"Tampa, FL",msa,FL,,,,2014-06-30,149645.57129411632
+102001,0,United States,country,,,,,2014-07-31,181500.38994393483
+395148,18,"Tampa, FL",msa,FL,,,,2014-07-31,150564.33969312444
+102001,0,United States,country,,,,,2014-08-31,182160.10478819476
+395148,18,"Tampa, FL",msa,FL,,,,2014-08-31,151308.67187775552
+102001,0,United States,country,,,,,2014-09-30,182778.36369246372
+395148,18,"Tampa, FL",msa,FL,,,,2014-09-30,152113.0825041861
+102001,0,United States,country,,,,,2014-10-31,183186.0528584984
+395148,18,"Tampa, FL",msa,FL,,,,2014-10-31,152849.82496390602
+102001,0,United States,country,,,,,2014-11-30,183718.29811492548
+395148,18,"Tampa, FL",msa,FL,,,,2014-11-30,153788.2944565335
+102001,0,United States,country,,,,,2014-12-31,184369.2393332232
+395148,18,"Tampa, FL",msa,FL,,,,2014-12-31,154966.8153490339
+102001,0,United States,country,,,,,2015-01-31,185170.6963556753
+395148,18,"Tampa, FL",msa,FL,,,,2015-01-31,156085.1175281191
+102001,0,United States,country,,,,,2015-02-28,185968.4419040658
+395148,18,"Tampa, FL",msa,FL,,,,2015-02-28,157075.3483081757
+102001,0,United States,country,,,,,2015-03-31,186778.95515891784
+395148,18,"Tampa, FL",msa,FL,,,,2015-03-31,157945.09146384112
+102001,0,United States,country,,,,,2015-04-30,187665.1861100352
+395148,18,"Tampa, FL",msa,FL,,,,2015-04-30,158957.64531974835
+102001,0,United States,country,,,,,2015-05-31,188642.8427590312
+395148,18,"Tampa, FL",msa,FL,,,,2015-05-31,160033.98053746216
+102001,0,United States,country,,,,,2015-06-30,189581.7560426764
+395148,18,"Tampa, FL",msa,FL,,,,2015-06-30,161092.95904097796
+102001,0,United States,country,,,,,2015-07-31,190551.92830422707
+395148,18,"Tampa, FL",msa,FL,,,,2015-07-31,162364.61148384784
+102001,0,United States,country,,,,,2015-08-31,191569.4962274396
+395148,18,"Tampa, FL",msa,FL,,,,2015-08-31,163788.3108525436
+102001,0,United States,country,,,,,2015-09-30,192694.6899940281
+395148,18,"Tampa, FL",msa,FL,,,,2015-09-30,165384.42553600486
+102001,0,United States,country,,,,,2015-10-31,193877.2396866297
+395148,18,"Tampa, FL",msa,FL,,,,2015-10-31,167039.4542067503
+102001,0,United States,country,,,,,2015-11-30,194939.42382386292
+395148,18,"Tampa, FL",msa,FL,,,,2015-11-30,168739.9798586017
+102001,0,United States,country,,,,,2015-12-31,195996.37529167265
+395148,18,"Tampa, FL",msa,FL,,,,2015-12-31,170498.95695923662
+102001,0,United States,country,,,,,2016-01-31,197135.44585142183
+395148,18,"Tampa, FL",msa,FL,,,,2016-01-31,172123.38305740722
+102001,0,United States,country,,,,,2016-02-29,198269.19534738176
+395148,18,"Tampa, FL",msa,FL,,,,2016-02-29,173750.53220795796
+102001,0,United States,country,,,,,2016-03-31,199112.7884941961
+395148,18,"Tampa, FL",msa,FL,,,,2016-03-31,175113.24908389777
+102001,0,United States,country,,,,,2016-04-30,199884.09643919868
+395148,18,"Tampa, FL",msa,FL,,,,2016-04-30,176566.51177078122
+102001,0,United States,country,,,,,2016-05-31,200659.16818774244
+395148,18,"Tampa, FL",msa,FL,,,,2016-05-31,177803.01713136173
+102001,0,United States,country,,,,,2016-06-30,201603.27828021624
+395148,18,"Tampa, FL",msa,FL,,,,2016-06-30,179075.84699433178
+102001,0,United States,country,,,,,2016-07-31,202321.7758287553
+395148,18,"Tampa, FL",msa,FL,,,,2016-07-31,180222.42134825155
+102001,0,United States,country,,,,,2016-08-31,202997.29450536775
+395148,18,"Tampa, FL",msa,FL,,,,2016-08-31,181522.45793733816
+102001,0,United States,country,,,,,2016-09-30,203738.21439180695
+395148,18,"Tampa, FL",msa,FL,,,,2016-09-30,183135.7817671248
+102001,0,United States,country,,,,,2016-10-31,204671.82288678447
+395148,18,"Tampa, FL",msa,FL,,,,2016-10-31,184914.52866092612
+102001,0,United States,country,,,,,2016-11-30,205705.4971489924
+395148,18,"Tampa, FL",msa,FL,,,,2016-11-30,186722.15576441344
+102001,0,United States,country,,,,,2016-12-31,206797.08754991496
+395148,18,"Tampa, FL",msa,FL,,,,2016-12-31,188316.65984667037
+102001,0,United States,country,,,,,2017-01-31,207890.09769210743
+395148,18,"Tampa, FL",msa,FL,,,,2017-01-31,189720.74217280428
+102001,0,United States,country,,,,,2017-02-28,209034.07153916068
+395148,18,"Tampa, FL",msa,FL,,,,2017-02-28,191079.29722338592
+102001,0,United States,country,,,,,2017-03-31,210211.92082160036
+395148,18,"Tampa, FL",msa,FL,,,,2017-03-31,192478.79639831392
+102001,0,United States,country,,,,,2017-04-30,211491.7117291956
+395148,18,"Tampa, FL",msa,FL,,,,2017-04-30,193967.91879789295
+102001,0,United States,country,,,,,2017-05-31,212630.65237840588
+395148,18,"Tampa, FL",msa,FL,,,,2017-05-31,195267.9320606785
+102001,0,United States,country,,,,,2017-06-30,213698.0212855419
+395148,18,"Tampa, FL",msa,FL,,,,2017-06-30,196654.8681726709
+102001,0,United States,country,,,,,2017-07-31,214608.06400795936
+395148,18,"Tampa, FL",msa,FL,,,,2017-07-31,198081.1786336056
+102001,0,United States,country,,,,,2017-08-31,215540.6800721489
+395148,18,"Tampa, FL",msa,FL,,,,2017-08-31,199714.12687283973
+102001,0,United States,country,,,,,2017-09-30,216511.66573825627
+395148,18,"Tampa, FL",msa,FL,,,,2017-09-30,201269.0820226601
+102001,0,United States,country,,,,,2017-10-31,217619.7682106972
+395148,18,"Tampa, FL",msa,FL,,,,2017-10-31,202790.9422723631
+102001,0,United States,country,,,,,2017-11-30,218813.99336402773
+395148,18,"Tampa, FL",msa,FL,,,,2017-11-30,204405.15644934177
+102001,0,United States,country,,,,,2017-12-31,220063.7712178553
+395148,18,"Tampa, FL",msa,FL,,,,2017-12-31,206136.3431356392
+102001,0,United States,country,,,,,2018-01-31,221300.18676303027
+395148,18,"Tampa, FL",msa,FL,,,,2018-01-31,207636.47356068488
+102001,0,United States,country,,,,,2018-02-28,222500.75753846587
+395148,18,"Tampa, FL",msa,FL,,,,2018-02-28,208884.22566822355
+102001,0,United States,country,,,,,2018-03-31,223889.5326656653
+395148,18,"Tampa, FL",msa,FL,,,,2018-03-31,210157.1130749112
+102001,0,United States,country,,,,,2018-04-30,225154.06597043647
+395148,18,"Tampa, FL",msa,FL,,,,2018-04-30,211514.80581903065
+102001,0,United States,country,,,,,2018-05-31,226382.47142954112
+395148,18,"Tampa, FL",msa,FL,,,,2018-05-31,212816.8543035625
+102001,0,United States,country,,,,,2018-06-30,227273.8524864117
+395148,18,"Tampa, FL",msa,FL,,,,2018-06-30,213847.9237540474
+102001,0,United States,country,,,,,2018-07-31,228402.99577010548
+395148,18,"Tampa, FL",msa,FL,,,,2018-07-31,215096.61527301156
+102001,0,United States,country,,,,,2018-08-31,229485.81245895
+395148,18,"Tampa, FL",msa,FL,,,,2018-08-31,216366.3537311729
+102001,0,United States,country,,,,,2018-09-30,230581.5915149337
+395148,18,"Tampa, FL",msa,FL,,,,2018-09-30,217634.82031299797
+102001,0,United States,country,,,,,2018-10-31,231335.0805722735
+395148,18,"Tampa, FL",msa,FL,,,,2018-10-31,218615.2818295049
+102001,0,United States,country,,,,,2018-11-30,232092.37937413852
+395148,18,"Tampa, FL",msa,FL,,,,2018-11-30,219697.43285218897
+102001,0,United States,country,,,,,2018-12-31,232901.7021266856
+395148,18,"Tampa, FL",msa,FL,,,,2018-12-31,220904.36364144852
+102001,0,United States,country,,,,,2019-01-31,233877.94348856903
+395148,18,"Tampa, FL",msa,FL,,,,2019-01-31,222144.73536475864
+102001,0,United States,country,,,,,2019-02-28,235010.9635696288
+395148,18,"Tampa, FL",msa,FL,,,,2019-02-28,223253.1685180784
+102001,0,United States,country,,,,,2019-03-31,236208.2040286848
+395148,18,"Tampa, FL",msa,FL,,,,2019-03-31,224060.2143342308
+102001,0,United States,country,,,,,2019-04-30,237276.0220996651
+395148,18,"Tampa, FL",msa,FL,,,,2019-04-30,224785.78862008685
+102001,0,United States,country,,,,,2019-05-31,238072.11122144156
+395148,18,"Tampa, FL",msa,FL,,,,2019-05-31,225323.3902466741
+102001,0,United States,country,,,,,2019-06-30,238771.68395648105
+395148,18,"Tampa, FL",msa,FL,,,,2019-06-30,226073.90400894184
+102001,0,United States,country,,,,,2019-07-31,239415.77355178265
+395148,18,"Tampa, FL",msa,FL,,,,2019-07-31,226868.6338831836
+102001,0,United States,country,,,,,2019-08-31,240123.71065195
+395148,18,"Tampa, FL",msa,FL,,,,2019-08-31,227855.32874252583
+102001,0,United States,country,,,,,2019-09-30,240747.2714636284
+395148,18,"Tampa, FL",msa,FL,,,,2019-09-30,228671.7584571148
+102001,0,United States,country,,,,,2019-10-31,241615.79840561445
+395148,18,"Tampa, FL",msa,FL,,,,2019-10-31,229631.1391962073
+102001,0,United States,country,,,,,2019-11-30,242797.79862984305
+395148,18,"Tampa, FL",msa,FL,,,,2019-11-30,230870.58136008665
+102001,0,United States,country,,,,,2019-12-31,244187.6775355503
+395148,18,"Tampa, FL",msa,FL,,,,2019-12-31,232454.11586647973
+102001,0,United States,country,,,,,2020-01-31,245718.0808772049
+395148,18,"Tampa, FL",msa,FL,,,,2020-01-31,234694.84301238784
+102001,0,United States,country,,,,,2020-02-29,247213.6989072784
+395148,18,"Tampa, FL",msa,FL,,,,2020-02-29,236834.9418016956
+102001,0,United States,country,,,,,2020-03-31,248769.6047981819
+395148,18,"Tampa, FL",msa,FL,,,,2020-03-31,238769.3972158926
+102001,0,United States,country,,,,,2020-04-30,250101.8514459853
+395148,18,"Tampa, FL",msa,FL,,,,2020-04-30,239844.3597359744
+102001,0,United States,country,,,,,2020-05-31,250851.7500407672
+395148,18,"Tampa, FL",msa,FL,,,,2020-05-31,240334.60691567915
+102001,0,United States,country,,,,,2020-06-30,251273.9154033365
+395148,18,"Tampa, FL",msa,FL,,,,2020-06-30,240774.58850168632
+102001,0,United States,country,,,,,2020-07-31,251951.0558728325
+395148,18,"Tampa, FL",msa,FL,,,,2020-07-31,241693.23821838383
+102001,0,United States,country,,,,,2020-08-31,253573.79207538877
+395148,18,"Tampa, FL",msa,FL,,,,2020-08-31,243513.865421311
+102001,0,United States,country,,,,,2020-09-30,256360.845065492
+395148,18,"Tampa, FL",msa,FL,,,,2020-09-30,246225.56994444865
+102001,0,United States,country,,,,,2020-10-31,259765.23670598763
+395148,18,"Tampa, FL",msa,FL,,,,2020-10-31,249350.82970782145
+102001,0,United States,country,,,,,2020-11-30,263615.4808572172
+395148,18,"Tampa, FL",msa,FL,,,,2020-11-30,253044.06005167976
+102001,0,United States,country,,,,,2020-12-31,267368.0174047568
+395148,18,"Tampa, FL",msa,FL,,,,2020-12-31,256767.02715913331
+102001,0,United States,country,,,,,2021-01-31,270977.0934026611
+395148,18,"Tampa, FL",msa,FL,,,,2021-01-31,260825.46055016192
+102001,0,United States,country,,,,,2021-02-28,274666.3310796129
+395148,18,"Tampa, FL",msa,FL,,,,2021-02-28,265164.6471038502
+102001,0,United States,country,,,,,2021-03-31,278517.195320678
+395148,18,"Tampa, FL",msa,FL,,,,2021-03-31,269973.49290858395
+102001,0,United States,country,,,,,2021-04-30,282728.80837922683
+395148,18,"Tampa, FL",msa,FL,,,,2021-04-30,275077.2390972967
+102001,0,United States,country,,,,,2021-05-31,287400.997600479
+395148,18,"Tampa, FL",msa,FL,,,,2021-05-31,280742.767065445
+102001,0,United States,country,,,,,2021-06-30,292425.8119782151
+395148,18,"Tampa, FL",msa,FL,,,,2021-06-30,287266.6802626564
+102001,0,United States,country,,,,,2021-07-31,296936.1437455924
+395148,18,"Tampa, FL",msa,FL,,,,2021-07-31,294042.4458716177
+102001,0,United States,country,,,,,2021-08-31,300141.389672314
+395148,18,"Tampa, FL",msa,FL,,,,2021-08-31,300053.0440795403
+102001,0,United States,country,,,,,2021-09-30,302097.67277392256
+395148,18,"Tampa, FL",msa,FL,,,,2021-09-30,304990.24887957616
+102001,0,United States,country,,,,,2021-10-31,304015.0652939859
+395148,18,"Tampa, FL",msa,FL,,,,2021-10-31,309573.6550897557
+102001,0,United States,country,,,,,2021-11-30,306614.4212016247
+395148,18,"Tampa, FL",msa,FL,,,,2021-11-30,314792.7680525739
+102001,0,United States,country,,,,,2021-12-31,309817.95330561785
+395148,18,"Tampa, FL",msa,FL,,,,2021-12-31,320395.6956026982
+102001,0,United States,country,,,,,2022-01-31,314225.276816765
+395148,18,"Tampa, FL",msa,FL,,,,2022-01-31,327465.8450832032
+102001,0,United States,country,,,,,2022-02-28,319503.9132964393
+395148,18,"Tampa, FL",msa,FL,,,,2022-02-28,335627.2069138116
+102001,0,United States,country,,,,,2022-03-31,325710.2096905773
+395148,18,"Tampa, FL",msa,FL,,,,2022-03-31,345335.3045313013
+102001,0,United States,country,,,,,2022-04-30,331913.092098735
+395148,18,"Tampa, FL",msa,FL,,,,2022-04-30,355763.9204035039
+102001,0,United States,country,,,,,2022-05-31,337456.0024763103
+395148,18,"Tampa, FL",msa,FL,,,,2022-05-31,365985.3282502704
+102001,0,United States,country,,,,,2022-06-30,342089.231454798
+395148,18,"Tampa, FL",msa,FL,,,,2022-06-30,375136.4913871309
+102001,0,United States,country,,,,,2022-07-31,344524.07199624844
+395148,18,"Tampa, FL",msa,FL,,,,2022-07-31,381326.2895100831
+102001,0,United States,country,,,,,2022-08-31,344894.6976634299
+395148,18,"Tampa, FL",msa,FL,,,,2022-08-31,384278.7227845231
+102001,0,United States,country,,,,,2022-09-30,343629.28483492875
+395148,18,"Tampa, FL",msa,FL,,,,2022-09-30,384155.4853140765
+102001,0,United States,country,,,,,2022-10-31,342412.4605889415
+395148,18,"Tampa, FL",msa,FL,,,,2022-10-31,382613.0479728975
+102001,0,United States,country,,,,,2022-11-30,341413.38529711403
+395148,18,"Tampa, FL",msa,FL,,,,2022-11-30,380319.6177843316
+102001,0,United States,country,,,,,2022-12-31,340505.9900617104
+395148,18,"Tampa, FL",msa,FL,,,,2022-12-31,377668.1409608182
+102001,0,United States,country,,,,,2023-01-31,339316.8262439996
+395148,18,"Tampa, FL",msa,FL,,,,2023-01-31,374874.3927889506
+102001,0,United States,country,,,,,2023-02-28,338447.7516290096
+395148,18,"Tampa, FL",msa,FL,,,,2023-02-28,372731.3855090815
+102001,0,United States,country,,,,,2023-03-31,338386.3255675688
+395148,18,"Tampa, FL",msa,FL,,,,2023-03-31,371710.17053977976
+102001,0,United States,country,,,,,2023-04-30,339349.6346774517
+395148,18,"Tampa, FL",msa,FL,,,,2023-04-30,371586.6521021157
+102001,0,United States,country,,,,,2023-05-31,340973.63889987016
+395148,18,"Tampa, FL",msa,FL,,,,2023-05-31,372285.5068287849
+102001,0,United States,country,,,,,2023-06-30,342909.1402956647
+395148,18,"Tampa, FL",msa,FL,,,,2023-06-30,373840.0401215926
+102001,0,United States,country,,,,,2023-07-31,344655.1064145435
+395148,18,"Tampa, FL",msa,FL,,,,2023-07-31,375617.9936315015
+102001,0,United States,country,,,,,2023-08-31,346275.28824571497
+395148,18,"Tampa, FL",msa,FL,,,,2023-08-31,377410.627682466
+102001,0,United States,country,,,,,2023-09-30,347499.34300468065
+395148,18,"Tampa, FL",msa,FL,,,,2023-09-30,378597.7495218765
+102001,0,United States,country,,,,,2023-10-31,348415.30954625923
+395148,18,"Tampa, FL",msa,FL,,,,2023-10-31,379725.65175630647
+102001,0,United States,country,,,,,2023-11-30,349064.20005328406
+395148,18,"Tampa, FL",msa,FL,,,,2023-11-30,380552.144598033
+102001,0,United States,country,,,,,2023-12-31,349494.82434051315
+395148,18,"Tampa, FL",msa,FL,,,,2023-12-31,381383.02405535727

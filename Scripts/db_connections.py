@@ -14,15 +14,13 @@ def get_connection():
     so the connection is only created once.
 
     Tables registered:
-        - zillow_home_values  (monthly ZHVI by county/metro)
-        - zillow_rents        (monthly ZORI by county/metro)
-        - census_income       (median household income by county/year)
-        - census_rent         (median gross rent by county/year)
-        - census_home_value   (median home value by county/year)
-        - census_rent_burden  (rent as % of income brackets by county/year)
-        - fhdc_cost_burden    (cost burden by income level, from Clearinghouse)
-        - fhdc_homeownership  (homeownership rate time series)
-        - fhdc_affordable_units (affordable/available units per 100 renters)
+        - ZHVI_clean                         (monthly ZHVI by county/metro)
+        - ZORI_clean                         (monthly ZORI by county/metro)
+        - census_income_clean                (median household income by county/year)
+        - census_rent_clean                  (median gross rent by county/year)
+        - census_home_value_clean            (median home value by county/year)
+        - census_rent_burden_clean           (rent as % of income brackets by county/year)
+        - clearinghouse_homeownership_clean  (homeownership rate time series)
     """
     global _CON
 

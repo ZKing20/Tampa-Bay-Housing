@@ -38,8 +38,9 @@ import os
 import glob
 from config import (
     RAW_ZILLOW_DIR, RAW_CENSUS_DIR, RAW_CLEARINGHOUSE_DIR,
-    CLEANED_DIR, COUNTY_NAMES, COUNTY_FIPS,
-    ANALYSIS_START_YEAR, ANALYSIS_END_YEAR
+    CLEANED_DIR, CLEAN_ZILLOW_DIR, CLEAN_CENSUS_DIR,
+    CLEAN_CLEARINGHOUSE_DIR,COUNTY_NAMES, COUNTY_FIPS,
+    ANALYSIS_START_DATE, ANALYSIS_END_DATE
 )
 
 # %%
@@ -91,10 +92,23 @@ ZHVI_Metro_Long = pd.melt(
                var_name = 'date',
                value_name = 'value')
 
-# TODO: Save to Data/Cleaned/zillow_home_values.csv
+# Convert string dates to datetime dates and filter by year
+ZORI_County_Long['date'] = pd.to_datetime(ZORI_County_Long['date'])
+ZORI_Metro_Long['date'] = pd.to_datetime(ZORI_Metro_Long['date'])
+ZHVI_County_Long['date'] = pd.to_datetime(ZHVI_County_Long['date'])
+ZHVI_Metro_Long['date'] = pd.to_datetime(ZHVI_Metro_Long['date'])
 
+ZORI_County_Clean = ZORI_County_Long[(ZORI_County_Long['date'] >= ANALYSIS_START_DATE) & (ZORI_County_Long['date'] <= ANALYSIS_END_DATE)]
+ZORI_Metro_Clean = ZORI_Metro_Long[(ZORI_Metro_Long['date'] >= ANALYSIS_START_DATE) & (ZORI_Metro_Long['date'] <= ANALYSIS_END_DATE)]
+ZHVI_County_Clean = ZHVI_County_Long[(ZHVI_County_Long['date'] >= ANALYSIS_START_DATE) & (ZHVI_County_Long['date'] <= ANALYSIS_END_DATE)]
+ZHVI_Metro_Clean = ZHVI_Metro_Long[(ZHVI_Metro_Long['date'] >= ANALYSIS_START_DATE) & (ZHVI_Metro_Long['date'] <= ANALYSIS_END_DATE)]
 
-# TODO: Save to Data/Cleaned/zillow_rents.csv
+# Save to Data/Cleaned/Zillow/
+zillow_home_values = pd.concat([ZHVI_County_Clean, ZHVI_Metro_Clean])
+zillow_home_values.to_csv(f'{CLEAN_ZILLOW_DIR}/ZHVI_clean.csv', index=False)
+
+zillow_rent_values = pd.concat([ZORI_County_Clean, ZORI_Metro_Clean])
+zillow_rent_values.to_csv(f'{CLEAN_ZILLOW_DIR}/ZORI_clean.csv', index=False)
 
 
 # %%
@@ -123,7 +137,7 @@ def clean_census_table(filename):
 
     # Clean and filter the raw data
     yearly_combined.columns = yearly_combined.columns.str.replace('!!', ' ')
-    estimate_cols = yearly_combined.columns[yearly_combined.columns.str.endswith(" Estimate")]
+    estimate_cols = yearly_combined.columns[yearly_combined.columns.str.endswith(' Estimate')]
     yearly_combined = yearly_combined[estimate_cols.tolist() + ['Year']]
     yearly_combined.columns = yearly_combined.columns.str.removesuffix(' Estimate')
     yearly_combined.columns = yearly_combined.columns.str.removesuffix(', Florida')
@@ -136,8 +150,8 @@ def clean_census_table(filename):
         value_name = 'value')
 
     # Convert values from strings to integer
-    yearly_combined_long['value'] = yearly_combined_long['value'].str.replace(',', '')
-    yearly_combined_long['value'] = pd.to_numeric(yearly_combined_long['value'])
+    yearly_combined_long['value'] = yearly_combined_long['value'].astype(str).str.replace(',', '')
+    yearly_combined_long['value'] = pd.to_numeric(yearly_combined_long['value'], errors='coerce')
 
     return yearly_combined_long
 
@@ -193,15 +207,20 @@ yearly_combined_long = pd.melt(
 yearly_combined_long['value'] = yearly_combined_long['value'].str.replace(',', '')
 yearly_combined_long['value'] = pd.to_numeric(yearly_combined_long['value'])
 
-# TODO: Save to Data/Cleaned/census_income.csv
+Rent_Burden_Clean = yearly_combined_long
 
+# Save to Data/Cleaned/Census/
+Median_Household_Income_Clean.to_csv(f'{CLEAN_CENSUS_DIR}/census_income_clean.csv', index=False)
+Median_Gross_Rent_Clean.to_csv(f'{CLEAN_CENSUS_DIR}/census_rent_clean.csv', index=False)
+Median_Home_Value_Clean.to_csv(f'{CLEAN_CENSUS_DIR}/census_home_value_clean.csv', index=False)
+Rent_Burden_Clean.to_csv(f'{CLEAN_CENSUS_DIR}/census_rent_burden_clean.csv', index=False)
 
 # %%
 # ============================================================
 # CLEARINGHOUSE DATA CLEANING
 # ============================================================
-# TODO: Load Excel workbooks for each county
-def clean_clearinghouse_table(filename):
+# Load Excel sheet from each workbook for each county
+def clean_clearinghouse_table():
     raw_files = sorted(glob.glob(os.path.join(RAW_CLEARINGHOUSE_DIR, '*.xlsx')))
     homeownership_files = []
     for f in raw_files:
@@ -210,10 +229,12 @@ def clean_clearinghouse_table(filename):
 
     # Combine into unified DataFrames
     homeownership_combined = pd.concat(homeownership_files, ignore_index=True)
-    print(homeownership_combined)
+    return homeownership_combined
 
-# TODO: Save to Data/Cleaned/clearinghouse.csv
+homeownership_clean = clean_clearinghouse_table()
 
+# Save to Data/Cleaned/clearinghouse.csv
+homeownership_clean.to_csv(f'{CLEAN_CLEARINGHOUSE_DIR}/clearinghouse_homeownership_clean.csv', index=False)
 
 # %%
 # ============================================================
@@ -222,21 +243,23 @@ def clean_clearinghouse_table(filename):
 # After cleaning, print summary stats to confirm data looks correct
 def validate_cleaned_data():
     """Quick sanity checks on all cleaned files."""
-    for filename in os.listdir(CLEANED_DIR):
-        if filename.endswith('.csv'):
-            filepath = os.path.join(CLEANED_DIR, filename)
-            df = pd.read_csv(filepath)
-            print(f"\n{'='*50}")
-            print(f"{filename}")
-            print(f"{'='*50}")
-            print(f"  Shape: {df.shape}")
-            print(f"  Columns: {list(df.columns)}")
-            print(f"  Nulls:\n{df.isnull().sum().to_string()}")
-            print(f"  First 3 rows:")
-            print(df.head(3).to_string())
+    for dirpath, _, filenames in os.walk(CLEANED_DIR):
+        for filename in filenames:
+            if filename.endswith('.csv'):
+                filepath = os.path.join(dirpath, filename)
+                df = pd.read_csv(filepath)
+                print(f"\n{'='*50}")
+                print(f"{filename}")
+                print(f"{'='*50}")
+                print(f"  Shape: {df.shape}")
+                print(f"  Columns: {list(df.columns)}")
+                print(f"  Nulls:\n{df.isnull().sum().to_string()}")
+                print(f"  First 3 rows:")
+                print(df.head(3).to_string())
 
 
 if __name__ == '__main__':
     # Run all cleaning steps, then validate
     # (Uncomment each section as you implement it)
-    validate_cleaned_data()
+    # validate_cleaned_data()
+    None
