@@ -24,7 +24,44 @@ con = get_connection()
 # 2014 to 2023, and how does Tampa Bay compare to the national average?
 # ============================================================
 
-# TODO: Implement queries
+# TODO: Home Value
+def load_home_value_difference():
+
+    # Define query
+    query = f"""
+        WITH starting_value AS (
+            SELECT
+                County,
+                value AS starting_value
+            FROM
+                census_home_value_clean
+            WHERE
+                year = 2014
+                ),
+        ending_value AS (
+            SELECT
+                County,
+                value AS ending_value
+            FROM
+                census_home_value_clean
+            WHERE
+                year = 2024
+                )
+        SELECT
+            ev.ending_value - sv.starting_value AS home_value_dif
+            County
+        FROM
+            starting_value sv
+        JOIN
+            ending_value ev ON sv.County = ev.County
+        ORDER BY
+            home_value_dif DESC
+    """
+    df = con.execute(query).fetchdf()
+    return df
+
+# TODO: Rent
+
 
 
 # %%
