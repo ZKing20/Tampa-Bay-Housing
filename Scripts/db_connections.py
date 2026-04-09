@@ -1,8 +1,7 @@
 # imports
 import duckdb
 import pandas as pd
-import os
-from config import CLEANED_DIR
+from config import CLEAN_ZILLOW_DIR, CLEAN_CLEARINGHOUSE_DIR, CLEAN_CENSUS_DIR
 
 # Global Connection Holder
 _CON = None
@@ -28,6 +27,18 @@ def get_connection():
         # Initialiize DuckDB connection
         _CON = duckdb.connect()
 
-        # TODO Register all tables
+        # Register all tables
+        tables = {
+            'ZHVI_clean': f'{CLEAN_ZILLOW_DIR}/ZHVI_clean.csv',
+            'ZORI_clean': f'{CLEAN_ZILLOW_DIR}/ZORI_clean.csv',
+            'census_income_clean': f'{CLEAN_CENSUS_DIR}/census_income_clean.csv',
+            'census_rent_clean': f'{CLEAN_CENSUS_DIR}/census_rent_clean.csv',
+            'census_home_value_clean': f'{CLEAN_CENSUS_DIR}/census_home_value_clean.csv',
+            'census_rent_burden_clean': f'{CLEAN_CENSUS_DIR}/census_rent_burden_clean.csv',
+            'clearinghouse_homeownership_clean': f'{CLEAN_CLEARINGHOUSE_DIR}/clearinghouse_homeownership_clean.csv',
+                }
+
+        for table_name, filepath in tables.items():
+            _CON.register(table_name, pd.read_csv(filepath))
 
     return _CON
