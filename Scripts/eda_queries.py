@@ -24,7 +24,7 @@ con = get_connection()
 # 2014 to 2023, and how does Tampa Bay compare to the national average?
 # ============================================================
 
-# TODO: Home Value
+# Home Value (Likely not needed)
 def load_home_value_difference():
 
     # Define query
@@ -48,8 +48,8 @@ def load_home_value_difference():
                 year = 2024
                 )
         SELECT
-            ev.ending_value - sv.starting_value AS home_value_dif
-            County
+            ev.ending_value - sv.starting_value AS home_value_dif,
+            sv.County
         FROM
             starting_value sv
         JOIN
@@ -60,8 +60,37 @@ def load_home_value_difference():
     df = con.execute(query).fetchdf()
     return df
 
-# TODO: Rent
+# Monthly Home prices
+def load_monthly_home_value():
+    query = f"""
+        SELECT
+            RegionName, date, value
+        FROM
+            ZHVI_clean
+        ORDER BY 
+            RegionName, date
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
+# Monthly Rent prices
+def load_monthly_rent_value():
+    query = f"""
+        SELECT
+            RegionName, date, value
+        FROM
+            ZORI_clean
+        ORDER BY 
+            RegionName, date
+    """
+    df = con.execute(query).fetchdf()
+    return df
+
+# TODO: Percentage change in home values from 2014-2024 for each county vs Tampa metro vs national
+
+
+# TODO: Percentage change in rent from 2014-2024 for each county vs Tampa metro vs national
+ 
 
 
 # %%
@@ -70,7 +99,13 @@ def load_home_value_difference():
 # cost increases? What is the gap?
 # ============================================================
 
-# TODO: Implement queries
+# TODO: Percentage change in median income, median rent, and median home value from 2014 to 2024, by county and for the US
+
+
+# TODO: Rent as a percentage of income for each county and year
+
+
+# TODO: Home value as a multiple of income for each county and year
 
 
 # %%
@@ -79,7 +114,13 @@ def load_home_value_difference():
 # affordability squeeze?
 # ============================================================
 
-# TODO: Implement queries
+# TODO: Combined query that ranks the four counties by income growth vs rent growth vs home value growth
+
+
+# TODO: Rent burden rates by county
+
+
+# TODO: Homeownership rates by county
 
 
 # %%
@@ -88,7 +129,13 @@ def load_home_value_difference():
 # cost-burdened, and how has that changed over the decade?
 # ============================================================
 
-# TODO: Implement queries
+# TODO: Total renters vs cost-burdened renters by county by year
+
+
+# TODO: Breakdown by burden severity by county and year
+
+
+# TODO: The change in cost-burdened percentage from 2014 to 2024 by county
 
 
 # %%
@@ -97,8 +144,14 @@ def load_home_value_difference():
 # change housing affordability trends?
 # ============================================================
 
-# TODO: Implement queries
+# TODO: Monthly home values and rents from ZHVI/ZORI, split into pre-COVID (2014–2019) and post-COVID (2020–2024)
 
+
+# TODO: Year-over-year percentage change in home values and rents by month
+
+
+# TODO: Income vs housing cost growth pre-COVID vs post-COVID
+ 
 
 # %%
 # Testing
