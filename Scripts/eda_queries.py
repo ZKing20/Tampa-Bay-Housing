@@ -26,8 +26,6 @@ con = get_connection()
 
 # Home Value (Likely not needed)
 def load_home_value_difference():
-
-    # Define query
     query = f"""
         WITH starting_value AS (
             SELECT
@@ -86,12 +84,41 @@ def load_monthly_rent_value():
     df = con.execute(query).fetchdf()
     return df
 
-# TODO: Percentage change in home values from 2014-2024 for each county vs Tampa metro vs national
+# Percentage change in home values from 2014-2024 for each county vs Tampa metro vs national
+def load_home_value_change():
+    query = f"""
+       SELECT
+            RegionName,
+            date,
+            value,
+            LAG(value) OVER(PARTITION BY RegionName ORDER BY date) AS previous_value,
+            ((value - LAG(value) OVER(PARTITION BY RegionName ORDER BY date)) 
+                / LAG(value) OVER(PARTITION BY RegionName ORDER BY date)) * 100 AS pct_change
+        FROM
+            ZHVI_clean
+        ORDER BY
+            RegionName, date
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
-
-# TODO: Percentage change in rent from 2014-2024 for each county vs Tampa metro vs national
- 
-
+# Percentage change in rent from 2014-2024 for each county vs Tampa metro vs national
+def load_rent_value_change():
+    query = f"""
+       SELECT
+            RegionName,
+            date,
+            value,
+            LAG(value) OVER(PARTITION BY RegionName ORDER BY date) AS previous_value,
+            ((value - LAG(value) OVER(PARTITION BY RegionName ORDER BY date)) 
+                / LAG(value) OVER(PARTITION BY RegionName ORDER BY date)) * 100 AS pct_change
+        FROM
+            ZORI_clean
+        ORDER BY
+            RegionName, date
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # %%
 # ============================================================
@@ -100,13 +127,28 @@ def load_monthly_rent_value():
 # ============================================================
 
 # TODO: Percentage change in median income, median rent, and median home value from 2014 to 2024, by county and for the US
+def load_median_pct_change():
+    query = f"""
 
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # TODO: Rent as a percentage of income for each county and year
-
+def load_rent_income_pct():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # TODO: Home value as a multiple of income for each county and year
-
+def load_home_value_multiple_of_income():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # %%
 # ============================================================
@@ -115,13 +157,28 @@ def load_monthly_rent_value():
 # ============================================================
 
 # TODO: Combined query that ranks the four counties by income growth vs rent growth vs home value growth
-
+def load_county_rankings():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # TODO: Rent burden rates by county
-
+def load_rent_burden_rate():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # TODO: Homeownership rates by county
-
+def load_homeownership_rate():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # %%
 # ============================================================
@@ -130,13 +187,28 @@ def load_monthly_rent_value():
 # ============================================================
 
 # TODO: Total renters vs cost-burdened renters by county by year
-
+def load_cost_burdened_vs_total_renters():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # TODO: Breakdown by burden severity by county and year
-
+def load_burden_severity():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # TODO: The change in cost-burdened percentage from 2014 to 2024 by county
-
+def load_cost_burden_change():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # %%
 # ============================================================
@@ -145,13 +217,28 @@ def load_monthly_rent_value():
 # ============================================================
 
 # TODO: Monthly home values and rents from ZHVI/ZORI, split into pre-COVID (2014–2019) and post-COVID (2020–2024)
-
+def load_pre_vs_post_covid_home_values():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # TODO: Year-over-year percentage change in home values and rents by month
-
+def load_yearly_rent_and_home_value_change():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # TODO: Income vs housing cost growth pre-COVID vs post-COVID
- 
+def load_pre_vs_post_covid_income_vs_housing_cost():
+    query = f"""
+        
+    """
+    df = con.execute(query).fetchdf()
+    return df
 
 # %%
 # Testing
