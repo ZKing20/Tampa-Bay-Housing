@@ -46,14 +46,14 @@ def load_home_value_difference():
                 year = 2024
                 )
         SELECT
-            ev.ending_value - sv.starting_value AS home_value_dif,
+            100 * ((ev.ending_value - sv.starting_value) / sv.starting_value) AS home_value_pct_change,
             sv.County
         FROM
             starting_value sv
         JOIN
             ending_value ev ON sv.County = ev.County
         ORDER BY
-            home_value_dif DESC
+            home_value_pct_change DESC
     """
     df = con.execute(query).fetchdf()
     return df
@@ -126,26 +126,117 @@ def load_rent_value_change():
 # cost increases? What is the gap?
 # ============================================================
 
-# TODO: Percentage change in median income, median rent, and median home value from 2014 to 2024, by county and for the US
+# Percentage change in median income, median rent, and median home value from 2014 to 2024, by county and for the US
 def load_median_pct_change():
     query = f"""
-
+        WITH starting_home_value AS (
+            SELECT
+                County,
+                value AS starting_home_value
+            FROM
+                census_home_value_clean
+            WHERE
+                year = '2014'
+                ),
+        ending_home_value AS (
+            SELECT
+                County,
+                value AS ending_home_value
+            FROM
+                census_home_value_clean
+            WHERE
+                year = '2024'
+                ),
+        starting_rent_value AS (
+            SELECT
+                County,
+                value AS starting_rent_value
+            FROM
+                census_rent_clean
+            WHERE
+                year = '2014'
+                ),
+        ending_rent_value AS (
+            SELECT
+                County,
+                value AS ending_rent_value
+            FROM
+                census_rent_clean
+            WHERE
+                year = '2024'
+                ),
+        starting_income AS (
+            SELECT
+                County,
+                value AS starting_income
+            FROM
+                census_income_clean
+            WHERE
+                year = '2014'
+                ),
+        ending_income AS (
+            SELECT
+                County,
+                value AS ending_income
+            FROM
+                census_income_clean
+            WHERE
+                year = '2024'
+                )
+        SELECT
+            100 * ((ehv.ending_home_value - shv.starting_home_value) / shv.starting_home_value) AS home_value_pct_change,
+            100 * ((erv.ending_rent_value - srv.starting_rent_value) / srv.starting_rent_value) AS rent_value_pct_change,
+            100 * ((ei.ending_income - si.starting_income) / si.starting_income) AS income_pct_change,
+            shv.County
+        FROM
+            starting_home_value shv
+        JOIN
+           starting_rent_value srv ON shv.County = srv.County
+        JOIN    
+           starting_income si ON shv.County = si.County
+        JOIN
+            ending_home_value ehv ON shv.County = ehv.County
+        JOIN
+            ending_rent_value erv ON shv.County = erv.County
+        JOIN    
+            ending_income ei ON shv.County = ei.County
+        ORDER BY
+            home_value_pct_change DESC,
+            rent_value_pct_change DESC
     """
     df = con.execute(query).fetchdf()
     return df
 
-# TODO: Rent as a percentage of income for each county and year
+# Rent as a percentage of income for each county and year
 def load_rent_income_pct():
     query = f"""
-        
+        SELECT
+            cr.County,
+            cr.Year,
+            100 * (cr.value * 12 / ci.value) AS rent_pct
+        FROM
+            census_rent_clean cr
+        JOIN
+            census_income_clean ci ON cr.County = ci.County AND cr.Year = ci.Year
+        ORDER BY
+            cr.County, cr.Year
     """
     df = con.execute(query).fetchdf()
     return df
 
-# TODO: Home value as a multiple of income for each county and year
+# Home value as a multiple of income for each county and year
 def load_home_value_multiple_of_income():
     query = f"""
-        
+         SELECT
+            ch.County,
+            ch.Year,
+            (ch.value / ci.value) AS home_value_multiple
+        FROM
+            census_home_value_clean ch
+        JOIN
+            census_income_clean ci ON ch.County = ci.County AND ch.Year = ci.Year
+        ORDER BY
+            ch.County, ch.Year
     """
     df = con.execute(query).fetchdf()
     return df
